@@ -1,3 +1,22 @@
+15 - 1 1 1 1  f
+14 - 1 1 1 0  e
+13 - 1 1 0 1  d
+12 - 1 1 0 0  c
+11 - 1 0 1 1  b
+10 - 1 0 1 0  a
+9  - 1 0 0 1
+8 -  1 0 0 0
+7 -  0 1 1 1
+6 -  0 1 1 0
+5 -  0 1 0 1
+4 -  0 1 0 0
+3  - 0 0 1 1
+2  - 0 0 1 0
+1  - 0 0 0 1
+0  - 0 0 0 0
+
+2r4 = 16 
+
 BINARY TO HEX TO DECIMAL
 
 8  4  2   1    8  4  2   1     8  4  2   1    8  4  2   1 
@@ -289,7 +308,7 @@ SuperMan: 802.1s: MiSTP
 
 TASK8: ACCESS PORTS VS TRUNK PORTS: lab mo sa exam.
 +
-TAAS/BABA:
+TAAS/BABA: PASTE MUNA SA BABA, THEN TAAS! OK
 config t
 Int Range fa0/10-12
  shutdown
@@ -492,7 +511,7 @@ GLBP: global load balancing protocol: all Cisco Router
 Companies: 2 or 3 telcos:
 @TAAS/PLDTinternet:
 config t
-hostname PLDT-ITO
+hostname coretaasPLDT
 Track 1 Int gi 0/1 line-protocol
 Int vlan 1
 standby 1 ip 10.41.1.6
@@ -511,7 +530,7 @@ standby 10 Track 1 decrement 60
 
 COREBABA/GLOBE:
 config t
-hostname GLOBE-ITO
+hostname corebabaGLOBE
 Int vlan 1
 standby 1 ip 10.41.1.6
 standby 1 preempt
